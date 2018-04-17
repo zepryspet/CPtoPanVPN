@@ -20,7 +20,7 @@ steps:
 > set_gateways.txt
 ___
 Troubleshooting
-1. Excute the script from the CMD to see if it's 
+1. Excute the script from the CMD to see if any particular statements is breaking the script
 2. check the "warnings.txt" file for any error 
 
 ___
