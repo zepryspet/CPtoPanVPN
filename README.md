@@ -13,9 +13,14 @@ steps:
 2. Dowload the script into the same folder as the object.
 > https://github.com/zepryspet/CPtoPanVPN/blob/master/cp-vpns.py
 
-3. Execute the script Either double click on it or from the cmd.
+3. Modify the external the following variables in the script to fit your external interface in the palo alto firewall.
+>#Variables to modify#
+>Ext_IF = 'ethernet1/1' #External interface to setup the VPNs, 
+>Ext_IF_Netmask = '24'	#External interface IP address netmask to setup the VPNs, 
 
-4. The set commands will be generated within the same folder in the following 2 documents:
+4. Execute the script Either double click on it or from the cmd.
+
+5. The set commands will be generated within the same folder in the following 2 documents:
 > set_crypto.txt
 > set_gateways.txt
 ___
