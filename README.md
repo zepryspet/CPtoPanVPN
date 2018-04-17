@@ -15,7 +15,9 @@ steps:
 
 3. Modify the external the following variables in the script to fit your external interface in the palo alto firewall.
 >#Variables to modify#
+
 >Ext_IF = 'ethernet1/1' #External interface to setup the VPNs, 
+
 >Ext_IF_Netmask = '24'	#External interface IP address netmask to setup the VPNs, 
 
 4. Execute the script Either double click on it or from the cmd.
