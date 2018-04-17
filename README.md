@@ -27,3 +27,4 @@ ___
 know limitations:
 1. Won't migrate pre-shared keys since those are encrypted in FWAUTH
 2. Won't create tunnel interfaces for the VPNs.
+3. No ipv6 compability.
